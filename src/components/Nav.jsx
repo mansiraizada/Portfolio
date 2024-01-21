@@ -21,14 +21,14 @@ const Nav = () => {
           <h3 className='hover:cursor-pointer hover:scale-[1.1] duration-100 ease-in'>Contact</h3>
         </div>
         <div className='w-[50vw] flex md:hidden items-center px-4'>
-          <CgMenuGridO className='text-2xl hover:cursor-pointer' onClick={navHandler}/>
+          <CgMenuGridO className='text-3xl hover:cursor-pointer' onClick={navHandler}/>
         </div>
           <div className='w-[50vw] flex justify-end items-center gap-3 md:gap-5 px-4 md:px-0 md:mr-8'>
             <FaLinkedin className='text-2xl hover:cursor-pointer'/>
             <FaGithub className='text-2xl hover:cursor-pointer'/>
           </div>  
       </div>
-      <div className={`px-3 py-4 md:hidden w-[50vw] h-fit bg-blue-200 absolute z-[999] ${mobileNav ? 'left-[0]' : '-left-[60%]'} duration-500 ease-in`}>
+      <div className={`px-3 py-4 md:hidden w-[50vw] h-fit bg-blue-200 absolute top-[8vh] z-[999] ${mobileNav ? 'left-[0]' : '-left-[60%]'} duration-500 ease-in`}>
           <div className='w-full h-full flex flex-col items-center justify-center'>
           <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Home</h3>
           <h3 className='hover:cursor-pointer p-1 hover:font-bold'>About</h3>

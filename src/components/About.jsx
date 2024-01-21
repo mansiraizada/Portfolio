@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-      <div className='bg-[#949494] w-full h-[80vh] p-4 flex flex-col md:flex-row gap-2 items-center'>
+      <div className=' w-full h-[100vh] p-4 flex flex-col md:flex-row gap-2 items-center'>
           <div className='w-full h-full md:p-10 md:py-16 md:text-xl'>
           I'm currently an Engineer at <b>Tata Consultancy Services</b>,
           building things for the web with some awesome people.
@@ -14,7 +14,7 @@ const About = () => {
           and efficient under the hood while providing engaging,
           pixel-perfect user experiences.
           </div>   
-          <div className='w-full h-full bg-green-200'>
+          <div className='w-full h-[80%] bg-green-200'>
               
           </div>
       </div>

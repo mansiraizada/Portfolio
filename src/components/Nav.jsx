@@ -28,11 +28,17 @@ const Nav = () => {
             <FaGithub className='text-2xl hover:cursor-pointer'/>
           </div>  
       </div>
-      <div className={`md:hidden w-[50vw] h-[40vh] bg-blue-200 absolute ${mobileNav ? 'left-[0]' : '-left-[60%]'} duration-500 ease-in`}>
-  {/* Your content goes here */}
-</div>
-
-      </>
+      <div className={`px-3 py-4 md:hidden w-[50vw] h-fit bg-blue-200 absolute ${mobileNav ? 'left-[0]' : '-left-[60%]'} duration-500 ease-in`}>
+          <div className='w-full h-full flex flex-col items-center justify-center'>
+          <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Home</h3>
+          <h3 className='hover:cursor-pointer p-1 hover:font-bold'>About</h3>
+          <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Skills</h3>
+          <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Work</h3>
+          <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Projects</h3>
+          <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Contact</h3>
+          </div>   
+      </div>
+    </>
          
   )
 }

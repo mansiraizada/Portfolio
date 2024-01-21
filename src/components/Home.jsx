@@ -15,7 +15,7 @@ const Home = () => {
     })
 
   return (
-      <div className='text overflow-hidden p-1 w-full h-[92vh] flex flex-col justify-center items-center text-center font-bold'>
+      <div className='text overflow-hidden p-1 w-full h-[100vh] flex flex-col justify-center items-center text-center font-bold'>
           <h1 className='text-5xl md:text-6xl'>Hi there! </h1> 
           <h1 className='text-5xl md:text-6xl mt-2'>I'm </h1>
           <h1 className='text-5xl md:text-8xl mt-4'>Mansi Raizada</h1>

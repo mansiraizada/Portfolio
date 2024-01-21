@@ -10,8 +10,8 @@ const Nav = () => {
   }
 
   return (
-    <>
-      <div className='w-full h-[8vh] flex bg-[#949494] relative'>
+    <div className='w-full h-[8vh] fixed bg-[#949494] z-[9998]'>
+      <div className='z-[9999] w-full h-full flex'>
           <div className='hidden w-[50vw] md:flex items-center py-4 px-8 gap-8 font-semibold'>
           <h3 className='hover:cursor-pointer hover:scale-[1.1] duration-100 ease-in'>Home</h3>
           <h3 className='hover:cursor-pointer hover:scale-[1.1] duration-100 ease-in'>About</h3>
@@ -28,7 +28,7 @@ const Nav = () => {
             <FaGithub className='text-2xl hover:cursor-pointer'/>
           </div>  
       </div>
-      <div className={`bg-[#949494] px-3 py-4 md:hidden w-[50vw] h-fit absolute z-[999] ${mobileNav ? 'left-[0]' : '-left-[60%]'} duration-500 ease-in`}>
+      <div className={`bg-[#949494] px-3 py-4 md:hidden w-[50vw] h-fit absolute ${mobileNav ? 'left-[0]' : '-left-[60%]'} duration-500 ease-in`}>
           <div className='w-full h-full bottom-0 flex flex-col items-center justify-center'>
           <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Home</h3>
           <h3 className='hover:cursor-pointer p-1 hover:font-bold'>About</h3>
@@ -38,7 +38,7 @@ const Nav = () => {
           <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Contact</h3>
           </div>   
       </div>
-    </>
+    </div>
          
   )
 }

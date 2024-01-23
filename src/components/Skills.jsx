@@ -22,7 +22,7 @@ const Skills = () => {
             {techSkills.map((skill, i) => (
               <div
                 key={i}
-                className='w-[12vh] md:w-[9vw] h-[12vh] md:h-[9vw] text-white rounded-full text-center flex items-center justify-center font-semibold text-xs md:text-sm bg-gray-800 border-2 border-gray-600 hover:border-white hover:scale-105 transform transition duration-300'
+                className='w-[12vh] md:w-[9vw] h-[12vh] md:h-[9vw] text-white rounded-full text-center flex items-center justify-center font-semibold text-xs md:text-sm bg-gray-800 border-2 border-gray-600 border-[#B5707C] hover:border-white hover:scale-105 transform transition duration-300'
                
               >
                 {skill}

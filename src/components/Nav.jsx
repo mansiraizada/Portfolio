@@ -19,7 +19,7 @@ const Nav = () => {
   }
 
   return (
-    <div className='nav w-full h-[8vh] fixed bg-[#6B7280] z-[9998]'>
+    <div className='text-white nav w-full h-[8vh] fixed bg-gradient-to-b from-gray-700 to-gray-900 z-[9998]'>
       <div className='z-[9999] w-full h-full flex'>
           <div className='hidden w-[50vw] md:flex items-center py-4 px-10 gap-8 font-bold'>
           <h3 className='hover:cursor-pointer hover:scale-[1.1] duration-100 ease-in'>Home</h3>
@@ -37,7 +37,7 @@ const Nav = () => {
             <FaGithub className='text-2xl hover:cursor-pointer'/>
           </div>  
       </div>
-      <div className={`bg-[#6B7280] px-3 py-4 md:hidden w-[50vw] h-fit absolute ${mobileNav ? 'left-[0]' : '-left-[60%]'} duration-500 ease-in`}>
+      <div className={`text-white bg-gradient-to-b from-gray-700 to-gray-900 px-3 py-4 md:hidden w-[50vw] h-fit absolute ${mobileNav ? 'left-[0]' : '-left-[60%]'} duration-500 ease-in`}>
           <div className='w-full h-full bottom-0 flex flex-col items-center justify-center'>
           <h3 className='hover:cursor-pointer p-1 hover:font-bold'>Home</h3>
           <h3 className='hover:cursor-pointer p-1 hover:font-bold'>About</h3>

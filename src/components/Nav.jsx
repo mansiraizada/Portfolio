@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <div className='nav w-full h-[8vh] fixed bg-[#6B7280] z-[9998]'>
       <div className='z-[9999] w-full h-full flex'>
-          <div className='hidden w-[50vw] md:flex items-center py-4 px-10 gap-8 font-semibold'>
+          <div className='hidden w-[50vw] md:flex items-center py-4 px-10 gap-8 font-bold'>
           <h3 className='hover:cursor-pointer hover:scale-[1.1] duration-100 ease-in'>Home</h3>
           <h3 className='hover:cursor-pointer hover:scale-[1.1] duration-100 ease-in'>About</h3>
           <h3 className='hover:cursor-pointer hover:scale-[1.1] duration-100 ease-in'>Skills</h3>

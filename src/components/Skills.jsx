@@ -53,7 +53,7 @@ const tools = ['Git + Github', 'VS Code', 'JIRA', 'ECMAScript 6', 'TDD', 'API In
 const Skills = () => {
  
   return (
-    <div className='w-full overflow-hidden h-screen bg-gradient-to-b from-gray-700 to-gray-900 py-6 md:p-12'>
+    <div className='w-full overflow-hidden h-[105vh] md:h-[100vh] bg-gradient-to-b from-gray-700 to-gray-900 py-6 md:p-12'>
       <h1 className='font-bold text-4xl uppercase text-white px-4 pb-4 md:pb-0'>Skills</h1>
       <div className='w-full h-[95%] pt-2 md:p-10 md:flex'>
         <div className=' w-full h-fit md:h-[100%]'>

@@ -11,7 +11,7 @@ const Skills = () => {
           <h1 className='text-xl md:text-2xl font-bold uppercase pb-6'>Development</h1>
           <div className='w-full h-[fit] flex flex-wrap justify-center gap-2'>
             {techSkills.map((skill, i) =>
-            <div key={i} className='w-[12vh] h-[12vh] rounded-full text-center flex items-center justify-center font-semibold text-xs uppercase bg-gray-700'>
+            <div key={i} className='w-[12vh] h-[12vh] text-white rounded-full text-center flex items-center justify-center font-semibold text-xs uppercase bg-gray-700'>
               {skill}
             </div>
             )}

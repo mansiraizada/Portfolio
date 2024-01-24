@@ -53,15 +53,15 @@ const tools = ['Git + Github', 'VS Code', 'JIRA', 'ECMAScript 6', 'TDD', 'API In
 const Skills = () => {
  
   return (
-    <div className='w-full overflow-hidden h-[105vh] md:h-[100vh] bg-gradient-to-b from-gray-700 to-gray-900 py-6 md:p-12'>
+    <div className='w-full overflow-hidden h-[105vh] md:h-[100vh] py-6 md:p-12'>
       <h1 className='font-bold text-4xl uppercase text-white px-4 pb-4 md:pb-0'>Skills</h1>
       <div className='w-full h-[95%] pt-2 md:p-10 md:flex'>
         <div className=' w-full h-fit md:h-[100%]'>
           <h1 className='text-xl mt-2 md:mt-0 md:text-2xl font-bold uppercase text-white px-4 pb-4'>Development</h1>
           <div className=' py-2 w-full md:w-[80%] h-[fit] md:h-[90%] flex flex-wrap justify-center gap-4 md:grid md:grid-cols-3 md:gap-4 md:p-8 md:py-0'>
             {techSkills.map((skill) => (
-              <div className='flex flex-col items-center'>
-                <div key={skill.id}
+              <div key={skill.id} className='flex flex-col items-center'>
+                <div 
                 className='uppercase w-[12vh] md:w-[8vw] h-[12vh] md:h-[8vw] text-white rounded-full text-center flex items-center justify-center font-semibold text-xs md:text-sm bg-gray-800 border-2 border-gray-600 hover:border-white hover:scale-105 transform transition duration-300'>
                 <img src={skill.img} className='w-[50%] h-[50%] object-contain' />
                 </div>

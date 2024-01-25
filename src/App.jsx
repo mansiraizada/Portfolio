@@ -7,19 +7,25 @@ import Project from './components/Project';
 import Demo from './components/Demo';
 // import './App.css';
 
+import ComingSoon from './components/ComingSoon';
+
 
 const App = () => {
 
   return (
     <>
-      <Nav/>
+{/*       <Nav/>
       <Home/>
       <About/>
       <div className='bg-gradient-to-b from-gray-700 to-gray-900'>
         <Skills/>
         <Project />
         <Demo/>
-      </div> 
+      </div>  */}
+
+  <ComingSoon/>
+
+      
     </>
   )
 }

@@ -23,7 +23,7 @@ const App = () => {
         <Demo/>
       </div>  */}
 
-  <ComingSoon/>
+ <ComingSoon/>
 
       
     </>

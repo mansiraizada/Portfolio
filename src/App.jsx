@@ -5,7 +5,6 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Project from './components/Project';
 import Demo from './components/Demo';
-// import './App.css';
 
 import ComingSoon from './components/ComingSoon';
 
